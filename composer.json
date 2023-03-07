@@ -1,0 +1,26 @@
+{
+    "name": "rotimi/slim-php-markdown-blog-app",
+    "description": "simple markdown blog app using slim php",
+    "type": "project",
+    "require": {
+        "mnapoli/front-yaml": "^2.0",
+        "michelf/php-markdown": "^2.0",
+        "php-di/php-di": "^6.4",
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6",
+        "slim/twig-view": "^3.3",
+        "twig/intl-extra": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarkdownBlog\\": "src/Blog"
+        }
+    },
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "rotimi"
+        }
+    ],
+    "minimum-stability": "stable"
+}
